@@ -1,0 +1,498 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   THEME VARIABLES
+   ============================================ */
+
+:root {
+  --theme: dark;
+}
+
+/* DARK THEME (default) */
+[data-theme="dark"],
+:root {
+  --color-bg: #0a0a0f;
+  --color-bg-secondary: #0f0f1a;
+  --color-surface: #12121f;
+  --color-surface-raised: #1a1a2e;
+  --color-surface-overlay: rgba(18, 18, 31, 0.85);
+  --color-accent: #00d4ff;
+  --color-accent-secondary: #7b2fff;
+  --color-accent-rgb: 0, 212, 255;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b0b0cc;
+  --color-text-muted: #6b6b8a;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-glass: rgba(255, 255, 255, 0.04);
+  --color-primary-50: #e0f7ff;
+  --color-primary-100: #b3edff;
+  --color-primary-200: #80e2ff;
+  --color-primary-300: #4dd6ff;
+  --color-primary-400: #26ccff;
+  --color-primary-500: #00d4ff;
+  --color-primary-600: #00bde6;
+  --color-primary-700: #009cbd;
+  --color-primary-800: #007a94;
+  --color-primary-900: #005a6e;
+  --glow-color: rgba(0, 212, 255, 0.4);
+  --card-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* LIGHT THEME */
+[data-theme="light"] {
+  --color-bg: #f5f5f0;
+  --color-bg-secondary: #ebebeb;
+  --color-surface: #ffffff;
+  --color-surface-raised: #f0f0f0;
+  --color-surface-overlay: rgba(255, 255, 255, 0.9);
+  --color-accent: #0066ff;
+  --color-accent-secondary: #7b2fff;
+  --color-accent-rgb: 0, 102, 255;
+  --color-text-primary: #0a0a0f;
+  --color-text-secondary: #3a3a5a;
+  --color-text-muted: #8a8aaa;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-glass: rgba(255, 255, 255, 0.7);
+  --glow-color: rgba(0, 102, 255, 0.3);
+  --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* NEON THEME */
+[data-theme="neon"] {
+  --color-bg: #000000;
+  --color-bg-secondary: #050512;
+  --color-surface: #080820;
+  --color-surface-raised: #0d0d2e;
+  --color-surface-overlay: rgba(8, 8, 32, 0.9);
+  --color-accent: #ff00ff;
+  --color-accent-secondary: #00ff88;
+  --color-accent-rgb: 255, 0, 255;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cc99ff;
+  --color-text-muted: #7755aa;
+  --color-border: rgba(255, 0, 255, 0.15);
+  --color-glass: rgba(255, 0, 255, 0.05);
+  --glow-color: rgba(255, 0, 255, 0.5);
+  --card-shadow: 0 8px 32px rgba(255, 0, 255, 0.2);
+}
+
+/* GOLD THEME */
+[data-theme="gold"] {
+  --color-bg: #0a0800;
+  --color-bg-secondary: #120e00;
+  --color-surface: #1a1400;
+  --color-surface-raised: #221c00;
+  --color-surface-overlay: rgba(26, 20, 0, 0.9);
+  --color-accent: #ffd700;
+  --color-accent-secondary: #ff8c00;
+  --color-accent-rgb: 255, 215, 0;
+  --color-text-primary: #fff8e0;
+  --color-text-secondary: #ccaa55;
+  --color-text-muted: #88762a;
+  --color-border: rgba(255, 215, 0, 0.15);
+  --color-glass: rgba(255, 215, 0, 0.05);
+  --glow-color: rgba(255, 215, 0, 0.4);
+  --card-shadow: 0 8px 32px rgba(255, 215, 0, 0.15);
+}
+
+/* CRIMSON THEME */
+[data-theme="crimson"] {
+  --color-bg: #0a0000;
+  --color-bg-secondary: #120000;
+  --color-surface: #1a0000;
+  --color-surface-raised: #220000;
+  --color-surface-overlay: rgba(26, 0, 0, 0.9);
+  --color-accent: #ff1744;
+  --color-accent-secondary: #ff6d00;
+  --color-accent-rgb: 255, 23, 68;
+  --color-text-primary: #fff0f0;
+  --color-text-secondary: #cc6666;
+  --color-text-muted: #884444;
+  --color-border: rgba(255, 23, 68, 0.15);
+  --color-glass: rgba(255, 23, 68, 0.05);
+  --glow-color: rgba(255, 23, 68, 0.4);
+  --card-shadow: 0 8px 32px rgba(255, 23, 68, 0.2);
+}
+
+/* EMERALD THEME */
+[data-theme="emerald"] {
+  --color-bg: #000a02;
+  --color-bg-secondary: #001205;
+  --color-surface: #001a07;
+  --color-surface-raised: #00220a;
+  --color-surface-overlay: rgba(0, 26, 7, 0.9);
+  --color-accent: #00e676;
+  --color-accent-secondary: #00bcd4;
+  --color-accent-rgb: 0, 230, 118;
+  --color-text-primary: #f0fff4;
+  --color-text-secondary: #66cc88;
+  --color-text-muted: #448855;
+  --color-border: rgba(0, 230, 118, 0.15);
+  --color-glass: rgba(0, 230, 118, 0.05);
+  --glow-color: rgba(0, 230, 118, 0.4);
+  --card-shadow: 0 8px 32px rgba(0, 230, 118, 0.15);
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  font-family: 'Cairo', 'Inter', sans-serif;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-secondary);
+}
+
+/* ============================================
+   GLASS MORPHISM
+   ============================================ */
+
+.glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-border);
+}
+
+.glass-strong {
+  background: var(--color-surface-overlay);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid var(--color-border);
+}
+
+/* ============================================
+   GRADIENT TEXT
+   ============================================ */
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================
+   GLOW EFFECTS
+   ============================================ */
+
+.glow {
+  box-shadow: 0 0 20px var(--glow-color);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px var(--glow-color);
+}
+
+.glow-border {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 15px var(--glow-color), inset 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   ANIMATED BACKGROUNDS
+   ============================================ */
+
+.noise-bg {
+  position: relative;
+}
+
+.noise-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.05;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(var(--color-accent-rgb), 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--color-accent-rgb), 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* ============================================
+   PAGE TRANSITIONS
+   ============================================ */
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+/* ============================================
+   CUSTOM COMPONENTS
+   ============================================ */
+
+.btn-primary {
+  @apply relative overflow-hidden px-8 py-3 font-heading font-semibold text-base uppercase tracking-widest rounded-none transition-all duration-300;
+  background: var(--color-accent);
+  color: #000;
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 30px var(--glow-color);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  @apply relative overflow-hidden px-8 py-3 font-heading font-semibold text-base uppercase tracking-widest rounded-none transition-all duration-300;
+  background: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+.btn-outline:hover {
+  background: var(--color-accent);
+  color: #000;
+  box-shadow: 0 0 30px var(--glow-color);
+}
+
+.section-title {
+  @apply font-display text-5xl md:text-7xl uppercase tracking-wider;
+  color: var(--color-text-primary);
+}
+
+.section-subtitle {
+  @apply font-heading text-lg md:text-xl font-light tracking-widest uppercase;
+  color: var(--color-accent);
+}
+
+.card-glass {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(20px);
+  transition: all 0.3s ease;
+}
+
+.card-glass:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--card-shadow), 0 0 20px var(--glow-color);
+  transform: translateY(-4px);
+}
+
+/* ============================================
+   CURSOR STYLES
+   ============================================ */
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  /* Center on cursor position set via left/top in JS */
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.2s ease, opacity 0.3s ease;
+  will-change: left, top;
+}
+
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-accent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  /* Center on cursor position set via left/top in JS */
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease, border-color 0.3s ease;
+  will-change: left, top;
+}
+
+/* ============================================
+   LOADING SCREEN
+   ============================================ */
+
+.loader-bar {
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-secondary));
+  animation: loading 2s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% { transform: scaleX(0); transform-origin: left; }
+  50% { transform: scaleX(1); transform-origin: left; }
+  51% { transform: scaleX(1); transform-origin: right; }
+  100% { transform: scaleX(0); transform-origin: right; }
+}
+
+/* ============================================
+   MARQUEE
+   ============================================ */
+
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+
+/* ============================================
+   MAGNETIC BUTTON
+   ============================================ */
+
+.magnetic-btn {
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* ============================================
+   BEFORE/AFTER SLIDER
+   ============================================ */
+
+.slider-handle {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--color-accent);
+  cursor: ew-resize;
+  z-index: 10;
+}
+
+.slider-handle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--glow-color);
+}
+
+/* ============================================
+   TOAST NOTIFICATIONS
+   ============================================ */
+
+.toast-enter-active,
+.toast-leave-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toast-enter-from {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.toast-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* ============================================
+   SKELETON LOADING
+   ============================================ */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface) 25%,
+    var(--color-surface-raised) 50%,
+    var(--color-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ============================================
+   THEME TRANSITION
+   ============================================ */
+
+*, *::before, *::after {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* Exclude cursor and animations from theme transition */
+.cursor-dot,
+.cursor-ring,
+.no-transition,
+.no-transition *,
+.gsap-element {
+  transition-property: none !important;
+}
+
+/* Restore only the intentional transitions for cursor */
+.cursor-dot {
+  transition-property: transform, opacity !important;
+  transition-duration: 0.2s, 0.3s !important;
+}
+.cursor-ring {
+  transition-property: width, height, opacity, border-color !important;
+  transition-duration: 0.3s !important;
+}

@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "name": "Power Hour",
+    "nameAr": "ساعة القوة",
+    "category": "Strength",
+    "categoryAr": "القوة",
+    "trainer": "Marcus Stone",
+    "trainerAr": "ماركوس ستون",
+    "duration": 60,
+    "level": "Advanced",
+    "levelAr": "متقدم",
+    "spots": 12,
+    "spotsLeft": 3,
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop",
+    "description": "Intense full-body strength training using Olympic lifts and compound movements",
+    "descriptionAr": "تدريب قوة مكثف لكامل الجسم باستخدام رفع الأثقال الأولمبي والحركات المركبة",
+    "schedule": [
+      { "day": "mon", "time": "07:00" },
+      { "day": "wed", "time": "07:00" },
+      { "day": "fri", "time": "07:00" }
+    ],
+    "color": "#00d4ff"
+  },
+  {
+    "id": 2,
+    "name": "APEX HIIT",
+    "nameAr": "هيت أبيكس",
+    "category": "HIIT",
+    "categoryAr": "تدريب متقطع",
+    "trainer": "Aria Chen",
+    "trainerAr": "آريا تشن",
+    "duration": 45,
+    "level": "Intermediate",
+    "levelAr": "متوسط",
+    "spots": 20,
+    "spotsLeft": 7,
+    "image": "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=400&h=300&fit=crop",
+    "description": "High-intensity interval training that pushes your limits and maximizes calorie burn",
+    "descriptionAr": "تدريب متقطع عالي الكثافة يدفع حدودك ويزيد من حرق السعرات الحرارية",
+    "schedule": [
+      { "day": "tue", "time": "06:00" },
+      { "day": "thu", "time": "06:00" },
+      { "day": "sat", "time": "09:00" }
+    ],
+    "color": "#ff1744"
+  },
+  {
+    "id": 3,
+    "name": "Yoga Flow",
+    "nameAr": "تدفق اليوغا",
+    "category": "Yoga",
+    "categoryAr": "يوغا",
+    "trainer": "Sofia Reyes",
+    "trainerAr": "صوفيا رييس",
+    "duration": 60,
+    "level": "All Levels",
+    "levelAr": "جميع المستويات",
+    "spots": 15,
+    "spotsLeft": 9,
+    "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop",
+    "description": "A mindful flow combining strength, flexibility, and breath work for total body harmony",
+    "descriptionAr": "تدفق واعٍ يجمع القوة والمرونة والتنفس لتناسق الجسم الكامل",
+    "schedule": [
+      { "day": "mon", "time": "09:00" },
+      { "day": "wed", "time": "09:00" },
+      { "day": "fri", "time": "09:00" },
+      { "day": "sun", "time": "10:00" }
+    ],
+    "color": "#9c27b0"
+  },
+  {
+    "id": 4,
+    "name": "Fight Club",
+    "nameAr": "نادي المقاتلين",
+    "category": "Boxing",
+    "categoryAr": "ملاكمة",
+    "trainer": "Jake Thompson",
+    "trainerAr": "جيك تومبسون",
+    "duration": 60,
+    "level": "Beginner",
+    "levelAr": "مبتدئ",
+    "spots": 16,
+    "spotsLeft": 0,
+    "image": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=400&h=300&fit=crop",
+    "description": "Learn boxing technique while torching calories in this addictive combat fitness class",
+    "descriptionAr": "تعلم تقنيات الملاكمة مع حرق السعرات الحرارية في هذا الفصل المثير",
+    "schedule": [
+      { "day": "tue", "time": "18:00" },
+      { "day": "thu", "time": "18:00" },
+      { "day": "sat", "time": "11:00" }
+    ],
+    "color": "#ff6d00"
+  },
+  {
+    "id": 5,
+    "name": "Cycle Storm",
+    "nameAr": "عاصفة الدراجات",
+    "category": "Cycling",
+    "categoryAr": "دراجات",
+    "trainer": "Aria Chen",
+    "trainerAr": "آريا تشن",
+    "duration": 45,
+    "level": "Intermediate",
+    "levelAr": "متوسط",
+    "spots": 25,
+    "spotsLeft": 12,
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    "description": "High-energy indoor cycling with music-driven intervals and virtual terrain challenges",
+    "descriptionAr": "ركوب دراجات داخلي عالي الطاقة مع فترات موسيقية وتحديات تضاريس افتراضية",
+    "schedule": [
+      { "day": "mon", "time": "17:00" },
+      { "day": "wed", "time": "17:00" },
+      { "day": "fri", "time": "17:00" }
+    ],
+    "color": "#ffd700"
+  },
+  {
+    "id": 6,
+    "name": "Pilates Sculpt",
+    "nameAr": "نحت البيلاتس",
+    "category": "Pilates",
+    "categoryAr": "بيلاتس",
+    "trainer": "Sofia Reyes",
+    "trainerAr": "صوفيا رييس",
+    "duration": 55,
+    "level": "All Levels",
+    "levelAr": "جميع المستويات",
+    "spots": 12,
+    "spotsLeft": 5,
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop",
+    "description": "Core-focused Pilates class that sculpts, tones, and lengthens your entire body",
+    "descriptionAr": "فصل بيلاتس يركز على القلب لنحت وتقوية وإطالة جسمك بالكامل",
+    "schedule": [
+      { "day": "tue", "time": "10:00" },
+      { "day": "thu", "time": "10:00" },
+      { "day": "sun", "time": "09:00" }
+    ],
+    "color": "#00e676"
+  }
+]

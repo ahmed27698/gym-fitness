@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Stone",
+    "nameAr": "ماركوس ستون",
+    "title": "Head Strength Coach",
+    "titleAr": "رئيس مدربي القوة",
+    "specialty": "Strength & Powerlifting",
+    "specialtyAr": "القوة ورفع الأثقال",
+    "experience": 12,
+    "clients": 340,
+    "rating": 4.9,
+    "certifications": ["CSCS", "NSCA-CPT", "CF-L3"],
+    "bio": "Former national powerlifting champion with 12 years of elite coaching experience. Marcus has trained Olympic athletes and professional bodybuilders.",
+    "bioAr": "بطل رفع الأثقال الوطني السابق بخبرة 12 عاماً في التدريب النخبوي.",
+    "image": "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": true,
+    "programs": ["Strength", "Powerlifting", "Olympic Lifting"]
+  },
+  {
+    "id": 2,
+    "name": "Aria Chen",
+    "nameAr": "آريا تشن",
+    "title": "HIIT & Performance Coach",
+    "titleAr": "مدربة التدريب المتقطع والأداء",
+    "specialty": "HIIT & Functional Training",
+    "specialtyAr": "التدريب المتقطع والوظيفي",
+    "experience": 8,
+    "clients": 280,
+    "rating": 4.8,
+    "certifications": ["ACE-CPT", "NASM-PES", "TRX Certified"],
+    "bio": "CrossFit Games competitor and HIIT methodology expert. Aria's high-energy sessions transform bodies and break mental barriers.",
+    "bioAr": "متسابقة CrossFit Games وخبيرة منهجية التدريب المتقطع.",
+    "image": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": true,
+    "programs": ["HIIT", "CrossFit", "Functional Training"]
+  },
+  {
+    "id": 3,
+    "name": "David Okonkwo",
+    "nameAr": "ديفيد أوكونكوو",
+    "title": "Sports Performance Specialist",
+    "titleAr": "متخصص الأداء الرياضي",
+    "specialty": "Sports Performance & Rehab",
+    "specialtyAr": "الأداء الرياضي وإعادة التأهيل",
+    "experience": 15,
+    "clients": 420,
+    "rating": 5.0,
+    "certifications": ["CSCS", "ATC", "USAW-L2"],
+    "bio": "Former NFL strength coach with 15 years developing elite athletic performance. David specializes in speed, power, and injury prevention.",
+    "bioAr": "مدرب قوة NFL السابق بخبرة 15 عاماً في تطوير الأداء الرياضي النخبوي.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": true,
+    "programs": ["Sports Performance", "Speed Training", "Injury Prevention"]
+  },
+  {
+    "id": 4,
+    "name": "Sofia Reyes",
+    "nameAr": "صوفيا رييس",
+    "title": "Yoga & Mindfulness Coach",
+    "titleAr": "مدربة اليوغا والوعي الذهني",
+    "specialty": "Yoga & Mind-Body Connection",
+    "specialtyAr": "اليوغا والارتباط بين العقل والجسم",
+    "experience": 10,
+    "clients": 195,
+    "rating": 4.9,
+    "certifications": ["RYT-500", "NASM-CPT", "Meditation Guide"],
+    "bio": "500-hour certified yoga instructor who blends traditional yoga philosophy with modern fitness science for transformative results.",
+    "bioAr": "مدربة يوغا معتمدة بـ 500 ساعة تمزج فلسفة اليوغا التقليدية مع علم اللياقة الحديث.",
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": false,
+    "programs": ["Yoga", "Meditation", "Flexibility"]
+  },
+  {
+    "id": 5,
+    "name": "Jake Thompson",
+    "nameAr": "جيك تومبسون",
+    "title": "Boxing & Conditioning Coach",
+    "titleAr": "مدرب الملاكمة واللياقة",
+    "specialty": "Boxing & Combat Fitness",
+    "specialtyAr": "الملاكمة ولياقة المقاتلين",
+    "experience": 9,
+    "clients": 210,
+    "rating": 4.7,
+    "certifications": ["USA Boxing Coach", "NASM-CPT", "MMA Conditioning"],
+    "bio": "Professional boxer turned elite trainer. Jake brings the intensity and discipline of combat sports to transform your fitness.",
+    "bioAr": "ملاكم محترف سابق تحول لمدرب نخبة.",
+    "image": "https://images.unsplash.com/photo-1503235930437-8c6293ba41f5?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": false,
+    "programs": ["Boxing", "MMA Conditioning", "Kickboxing"]
+  },
+  {
+    "id": 6,
+    "name": "Priya Sharma",
+    "nameAr": "بريا شارما",
+    "title": "Nutrition & Wellness Coach",
+    "titleAr": "مدربة التغذية والصحة",
+    "specialty": "Nutrition & Body Transformation",
+    "specialtyAr": "التغذية وتحويل الجسم",
+    "experience": 7,
+    "clients": 315,
+    "rating": 4.8,
+    "certifications": ["RD", "NASM-FNS", "Precision Nutrition L2"],
+    "bio": "Registered dietitian and certified fitness coach. Priya creates holistic transformation programs that combine optimal nutrition with targeted training.",
+    "bioAr": "أخصائية تغذية مسجلة ومدربة لياقة معتمدة.",
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=500&fit=crop",
+    "social": {
+      "instagram": "#",
+      "twitter": "#",
+      "youtube": "#"
+    },
+    "featured": false,
+    "programs": ["Nutrition", "Body Transformation", "Weight Loss"]
+  }
+]

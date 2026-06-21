@@ -1,0 +1,70 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "nameAr": "المبتدئ",
+      "description": "Perfect for beginners ready to start their fitness journey",
+      "descriptionAr": "مثالي للمبتدئين المستعدين لبدء رحلتهم نحو اللياقة",
+      "monthlyPrice": 49,
+      "yearlyPrice": 470,
+      "color": "#00d4ff",
+      "popular": false,
+      "features": [
+        { "text": "Gym access (6am-10pm)", "textAr": "دخول الصالة (6ص-10م)", "included": true },
+        { "text": "2 group classes/week", "textAr": "فصلان جماعيان أسبوعياً", "included": true },
+        { "text": "Basic fitness assessment", "textAr": "تقييم لياقة أساسي", "included": true },
+        { "text": "Mobile app access", "textAr": "تطبيق للهاتف", "included": true },
+        { "text": "Locker room access", "textAr": "غرف تبديل الملابس", "included": true },
+        { "text": "Personal training sessions", "textAr": "جلسات تدريب شخصي", "included": false },
+        { "text": "Nutrition consultation", "textAr": "استشارة تغذية", "included": false },
+        { "text": "Sauna & steam room", "textAr": "الساونا وغرفة البخار", "included": false },
+        { "text": "Guest passes", "textAr": "بطاقات ضيف", "included": false }
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Elite",
+      "nameAr": "النخبة",
+      "description": "For serious athletes who demand more from their training",
+      "descriptionAr": "للرياضيين الجادين الذين يريدون المزيد من تدريبهم",
+      "monthlyPrice": 99,
+      "yearlyPrice": 950,
+      "color": "#7b2fff",
+      "popular": true,
+      "features": [
+        { "text": "24/7 gym access", "textAr": "دخول الصالة 24/7", "included": true },
+        { "text": "Unlimited group classes", "textAr": "فصول جماعية غير محدودة", "included": true },
+        { "text": "Monthly PT session", "textAr": "جلسة تدريب شخصي شهرية", "included": true },
+        { "text": "Nutrition consultation", "textAr": "استشارة تغذية", "included": true },
+        { "text": "Premium app features", "textAr": "ميزات التطبيق المتميزة", "included": true },
+        { "text": "Towel service", "textAr": "خدمة المناشف", "included": true },
+        { "text": "Sauna & steam room", "textAr": "الساونا وغرفة البخار", "included": true },
+        { "text": "Guest passes (2/month)", "textAr": "بطاقات ضيف (2/شهر)", "included": true },
+        { "text": "Private locker", "textAr": "خزانة خاصة", "included": false }
+      ]
+    },
+    {
+      "id": "apex",
+      "name": "APEX",
+      "nameAr": "أبيكس",
+      "description": "The ultimate fitness experience with no compromises",
+      "descriptionAr": "تجربة اللياقة المطلقة بلا تنازلات",
+      "monthlyPrice": 199,
+      "yearlyPrice": 1900,
+      "color": "#ffd700",
+      "popular": false,
+      "features": [
+        { "text": "24/7 VIP gym access", "textAr": "دخول VIP للصالة 24/7", "included": true },
+        { "text": "Unlimited all classes", "textAr": "جميع الفصول غير محدودة", "included": true },
+        { "text": "Weekly PT sessions", "textAr": "جلسات تدريب أسبوعية", "included": true },
+        { "text": "Personal nutrition plan", "textAr": "خطة تغذية شخصية", "included": true },
+        { "text": "Recovery suite access", "textAr": "وصول لجناح التعافي", "included": true },
+        { "text": "Priority booking", "textAr": "حجز أولوية", "included": true },
+        { "text": "Supplement package", "textAr": "حزمة مكملات غذائية", "included": true },
+        { "text": "Unlimited guest passes", "textAr": "بطاقات ضيف غير محدودة", "included": true },
+        { "text": "Private locker", "textAr": "خزانة خاصة", "included": true }
+      ]
+    }
+  ]
+}

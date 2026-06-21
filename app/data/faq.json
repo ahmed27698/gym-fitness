@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "What are your opening hours?",
+    "questionAr": "ما هي ساعات العمل لديكم؟",
+    "answer": "APEX Fitness is open 24/7 for Elite and APEX members. Starter members have access from 6am to 10pm, Monday through Sunday.",
+    "answerAr": "أبيكس للياقة مفتوح 24/7 لأعضاء النخبة وأبيكس. أعضاء المبتدئين لديهم وصول من 6 صباحاً حتى 10 مساءً، من الإثنين إلى الأحد.",
+    "category": "general"
+  },
+  {
+    "id": 2,
+    "question": "Do I need experience to join?",
+    "questionAr": "هل أحتاج خبرة للانضمام؟",
+    "answer": "Absolutely not! We welcome members of all fitness levels. Our team will conduct a comprehensive fitness assessment and create a personalized program tailored to your current level and goals.",
+    "answerAr": "بالطبع لا! نرحب بالأعضاء من جميع مستويات اللياقة. سيجري فريقنا تقييماً شاملاً للياقة وينشئ برنامجاً شخصياً مصمماً لمستواك وأهدافك الحالية.",
+    "category": "membership"
+  },
+  {
+    "id": 3,
+    "question": "Can I freeze my membership?",
+    "questionAr": "هل يمكنني تجميد عضويتي؟",
+    "answer": "Yes, you can freeze your membership for up to 3 months per year. There's a small administration fee of $10/month during the freeze period. Simply contact our front desk or use the mobile app.",
+    "answerAr": "نعم، يمكنك تجميد عضويتك لمدة تصل إلى 3 أشهر سنوياً. هناك رسوم إدارية بسيطة 10 دولارات/شهر خلال فترة التجميد.",
+    "category": "membership"
+  },
+  {
+    "id": 4,
+    "question": "Are personal training sessions included in membership?",
+    "questionAr": "هل جلسات التدريب الشخصي مضمنة في العضوية؟",
+    "answer": "Elite members receive 1 personal training session per month, and APEX members receive weekly sessions. Additional PT sessions can be purchased individually or in packages.",
+    "answerAr": "يحصل أعضاء النخبة على جلسة تدريب شخصي واحدة شهرياً، وأعضاء أبيكس على جلسات أسبوعية. يمكن شراء جلسات تدريب شخصي إضافية بشكل فردي أو في حزم.",
+    "category": "training"
+  },
+  {
+    "id": 5,
+    "question": "What equipment do you have?",
+    "questionAr": "ما هي المعدات المتوفرة لديكم؟",
+    "answer": "We feature 200+ pieces of equipment including Olympic lifting platforms, power racks, cable machines, cardio equipment (treadmills, bikes, rowers), functional training rigs, and a dedicated stretching area.",
+    "answerAr": "نوفر أكثر من 200 قطعة معدات تشمل منصات رفع الأثقال الأولمبي وأقفاص القوة وآلات الكابل والمعدات الكارديو وأجهزة التدريب الوظيفي.",
+    "category": "facilities"
+  },
+  {
+    "id": 6,
+    "question": "Do you offer nutrition coaching?",
+    "questionAr": "هل تقدمون تدريباً على التغذية؟",
+    "answer": "Yes! We have registered dietitians and certified nutrition coaches on staff. APEX members receive a personalized nutrition plan, and all members can book nutrition consultations separately.",
+    "answerAr": "نعم! لدينا أخصائيو تغذية مسجلون ومدربو تغذية معتمدون. يحصل أعضاء أبيكس على خطة تغذية شخصية، ويمكن لجميع الأعضاء حجز استشارات تغذية بشكل منفصل.",
+    "category": "nutrition"
+  },
+  {
+    "id": 7,
+    "question": "Is there parking available?",
+    "questionAr": "هل يوجد موقف سيارات؟",
+    "answer": "Yes, we have a dedicated member parking lot with 150+ spaces available 24/7. Electric vehicle charging stations are also available. Parking is complimentary with any membership.",
+    "answerAr": "نعم، لدينا موقف سيارات مخصص للأعضاء مع أكثر من 150 مكاناً متاحاً 24/7. محطات شحن السيارات الكهربائية متوفرة أيضاً. الموقف مجاني مع أي عضوية.",
+    "category": "facilities"
+  },
+  {
+    "id": 8,
+    "question": "What is your cancellation policy?",
+    "questionAr": "ما هي سياسة الإلغاء لديكم؟",
+    "answer": "Month-to-month memberships can be cancelled with 30 days notice. Annual memberships can be cancelled after 3 months for a pro-rated refund. Contact our team for special circumstances.",
+    "answerAr": "يمكن إلغاء العضويات الشهرية مع إشعار 30 يوماً. يمكن إلغاء العضويات السنوية بعد 3 أشهر مع استرداد نسبي. تواصل مع فريقنا للظروف الخاصة.",
+    "category": "membership"
+  }
+]
